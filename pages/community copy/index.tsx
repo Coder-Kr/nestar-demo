@@ -6,10 +6,8 @@ import { useState } from "react";
 const Community: NextPage = () => {
    const [title, setTitle] = useState<string>("Hello");
    return (
-      <div>
-         <div style={{ margin: "20px 0" }}>
-            <Stack className="container">COMMUNITY</Stack>
-         </div>
+      <div style={{ margin: "20px 0" }}>
+         <Stack className="container">Community</Stack>
       </div>
    );
 };
